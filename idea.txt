@@ -1,0 +1,57 @@
+'''
+project : DATA MAHASISWA TERENKRIPSI
+
+functional requirements :
+1. input mahasiswa data that has a nama, usia, nilai rata-rata
+- nama will be encrypted by shifting their alphabets by 3 (ex: a -> d)
+
+2. seach mahasiswa by name and display their data
+
+3. display all mahasiswa and their data
+
+4. count average grade from all mahasiswa
+
+5. display mahasiswa that graduated. graduation determined by average score >= 70. Display their encrypted name
+
+6. display oldest and youngest mahasiswa
+
+steps to achive goal:
+1. create a menu UI
+2. perhaps a ui handler is needed
+3. the program will run on a main func that infinitely loops until exit
+by user
+4. have an input handler to detirmine user actions between menus
+5. we will use an array filled with dictionary as a database
+
+=============================== things we need to build =====================
+6. we will first have a controller class that has an API of our features: ✅✅✅✅
+- display menu ✅
+- input mahasiswa ✅
+- display all mahasiswa (encrypted) ✅
+- display all mahasiswa ✅
+- find mahasiswa by name✅
+- count average grade from all mahasiswa ✅
+- display graduating mahasiswa (grade >= 70) with (encrypted) name ✅
+- display oldest and youngest mahasiswa (encrypted) ✅
+- exit the system ✅
+7. We will a view class that has viewing functionalities such as: ✅ ✅ ✅✅
+- to open a new page ✅
+- to display a header ✅
+- to display an ordered list ✅
+- display an un ordered list ✅
+8. We will have a mahasiswa model that has:
+- a data validator ✅
+- a db attribute to store all data ✅
+- an encryption method ✅ (stil have problems however)
+- a decryption method ✅ (still have some problems however)
+- create method ✅
+- query all raw data from db ✅
+- display all data from db ✅
+- find by name ✅
+- filter data ✅
+
+-- dev notes
+-you can call an object's own method inside another one of its method using self.methodName
+-put @staticmethod above a method in a class to turn it into a static method
+
+'''
